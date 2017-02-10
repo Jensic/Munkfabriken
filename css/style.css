@@ -1,0 +1,667 @@
+/* 
+=================================================
+            RESET STYLESHEET
+=================================================
+*/ 
+:root,html {
+    font-size: 62.5%;
+    font-family: 'Work Sans', sans-serif;
+    /*font-weight: lighter;*/
+}
+
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+    background: transparent;
+    border: 0;
+    font-weight: 500;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+/*
+=================================================
+                    FONTFACE
+=================================================
+*/
+
+@font-face {
+    font-family: 'hellofireworksmedium';
+    src: url('../hellofireworks/hellofireworks-webfont.woff2') format('woff2'),
+         url('../hellofireworks/hellofireworks-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* 
+=================================================
+                    BODY
+=================================================
+*/
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding-top: 48px;
+}
+.centrering {
+    margin: 0 auto;
+    width: 1100px;
+}
+/* 
+=================================================
+                    HEADER
+=================================================
+*/
+header {
+    background-color: #0b3c5d;
+    font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+}
+
+.logga {
+    color: #fff;
+    display: inline-block;
+    font-size: 32px;
+    font-size: 3.2rem;
+    vertical-align: middle;
+    width: 335px;
+}
+
+.meny  {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.meny ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.meny ul li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 1.6rem;
+    height: 3em;
+    line-height: 3em;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 125px;
+}
+
+.meny ul a:hover {
+    background-color: #D9B310;
+    border-radius: 15px;
+}
+
+/*
+
+=================================================
+                    MAIN
+=================================================
+*/
+
+main {
+    background-color: #fff;
+}
+
+/* 
+-------------------------------------------------
+                 .FIRST-INFO
+-------------------------------------------------
+*/
+
+.first-info {
+    padding: 40px;
+    white-space: nowrap;
+}
+
+.first-info h1 {
+    font-size: 34px;
+    font-size: 3.4rem;
+}
+
+.first-info > .first-text {
+    display: inline-block;
+    text-align: center;
+    white-space: normal;
+    width: 100%;
+}
+
+#spancolor {
+    background-color: #ffb3ed;
+    border-radius: 20%;
+}
+
+/* 
+-------------------------------------------------
+                 .HUVUDINNEHÅLL
+-------------------------------------------------
+*/
+
+.huvudinnehall {
+    padding: 40px;
+}
+
+.huvudinnehall > h1 {
+    border-bottom: 1px dotted #222;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.huvudinnehall > article {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    width: 49%;
+}
+
+.huvudinnehall > article > h2 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.huvudinnehall > article > p {
+    text-align: justify;
+}
+
+/* 
+=================================================
+            BILD MUNKAR
+=================================================
+*/
+
+#bildmunkar {
+    background-color: #fff;
+    background-image: url(../bilder/bildmunkar2rezised.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* 
+=================================================
+                OM OSS SIDAN
+=================================================
+*/
+
+.welcome  {
+    text-align: center;
+}
+
+/*
+-------------------------------------------------
+                    PEOPLE
+-------------------------------------------------
+*/
+.people {
+    height: auto;
+    margin: 40px 0;
+    width: 100%;
+    /*background-color: #FFE6DE; */
+}
+
+.peoplepic {
+    background-color: #EBCEF5;
+    border-radius: 30px;
+    color: #A261B8;
+    float: left;
+    height: 220px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width:33.33%;
+}
+
+.people div img {
+    border-radius: 50px;   
+}
+
+#peoplestuff {
+    background-color: #EBCEF5;
+    color: #A261B8;
+    clear: both;
+    height: 80px;
+    text-align: center;
+    width: auto;
+}
+
+/*
+#peoplestuff {
+    background-color: #EBCEF5;
+    color: #A261B8;
+    float: left;
+    height: 80px;
+    margin-top: 40px;
+    padding-top: 40px;
+    text-align: center;
+    width: auto;
+} första alternativet*/
+
+/*------------------------------------------------
+                    .OMOSSINNEHALL
+--------------------------------------------------*/
+
+.omossinnehall {
+    padding: 40px;
+}
+
+.omossinnehall > h1 {
+    border-bottom: 1px dotted #222;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.omossinnehall > article {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    width: 32%;
+}
+
+.omossinnehall > article > h2 {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.omossinnehall > article > p {
+    text-align: justify;
+}
+
+
+/*------------------------------------------------
+                    .PEOPLE-TABLE
+--------------------------------------------------*/
+
+.people-table {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    border-spacing: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.people-table td,th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.people-table th {
+    background-color: #dce9f9;
+    /*border-top: none; */
+}
+
+.people-table tr:nth-child(odd) { /* Inl3 nivå 4 */
+    background-color: #EAF20D;    
+}
+
+.people-table tr:nth-child(even) { /* Inl3 nivå 4 */
+    background-color: #0DABF2;    
+}
+
+.people-table tr:hover {
+    background: #fbf8e9;
+}
+
+
+/*------------------------------------------------
+                    UNDERPEOPLE
+-------------------------------------------------*/
+
+#underpeople div h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#underpeople > h2 { /* inl3 nivå 1 */
+    color: #FF4000;
+    font-weight: lighter;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#underpeople div + h2 { /* inl3 nivå 1 */
+    color: #FF00BF;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#underpeople p {
+    text-align: center;
+}
+
+#underpeople div ~ p { /* inl3 nivå 1 */
+    text-align: center;
+    color: #7A1A06;
+}
+
+#smileymunk {
+    text-align: center;
+}
+
+/*------------------------------------------------
+                   LINKS
+-------------------------------------------------*/
+
+a {
+    text-decoration: none;
+}
+
+a[title] { /* Inl3 nivå 4 */
+    color: #F23C0D;
+}
+
+a[href$=\.pdf]::after { /* Inl3 nivå 4 */
+    content:"\f1c1"; /* fa-pdf-file-o */
+    font-family: FontAwesome;
+    margin-left: 10px;
+    color: #0DF264;
+    text-decoration: none;
+}
+
+/*
+=================================================
+.                   .HELLOFIREWORKS
+=================================================
+*/
+
+.hellofireworks { /* Inl3 nivå5 */
+    margin-top: 40px;
+    font-family: 'hellofireworksmedium', sans-serif;
+    color: #FF00BF; 
+}
+
+/* 
+=================================================
+                    PRISLISTA
+=================================================
+*/
+
+.prislista {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px #ccc;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.prislista tr:hover {
+    background: #fbf8e9;
+}
+
+.prislista td, th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.prislista th {
+    background-color: #dce9f9;
+    border-top: none;
+}
+
+
+
+/* 
+=================================================
+                    KONTAKTSIDA
+=================================================
+*/
+
+/*
+-------------------------------------------------
+                MEDDELANDEFORMULÄR
+-------------------------------------------------
+*/
+form {
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin: 0 auto;
+    padding: 1em;
+    width: 450px;
+    height: 250px;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    border: 1px solid #999;
+    font: 1em sans-serif;
+    width: 300px;
+}
+
+input:focus,textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    height: 5em;
+    resize: vertical;
+    vertical-align: top;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 1.2em;
+}
+
+/* 
+=================================================
+                    TOM
+=================================================
+*/
+
+
+
+/* 
+=================================================
+                    FOOTER
+=================================================
+*/
+
+footer {
+    background-color: #0b3c5d;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-innehall {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top; 
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #D9B310;
+}
+
+/*
+=================================================
+                MEDIAQUERIES(OMOSSSIDAN)
+=================================================
+*/
+
+@media all and (max-width: 1024px) { /* inl3 nivå2  */
+    .centrering {
+        width: 768px;
+    }
+    
+    .first-info {
+        padding: 40px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .welcome  {
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .peoplepiccontainer {
+        height: 220px;
+        width: 600px;
+        margin-left: 45px;
+    }
+    
+    .peoplepic {
+        width: 200px;
+        font-size: 12px;
+    }
+    
+    #peoplestuff {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+     .omossinnehall > h2 { 
+        width: 600px;
+         margin: 0 auto;
+    }
+    
+    .omossinnehall > article { 
+        display: block;
+        width: auto;
+    }
+    
+    .people-table {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    #underpeople {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .hellofireworks {
+        width: 600px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+}
+ 
+/*
+-------------------------------------------------
+            MEDIAQUERYPRINT
+-------------------------------------------------
+*/
+@media print {
+	header, footer, .peoplepiccontainer, #bildmunkar, #smileymunk { /* Inl3 nivå3 */
+        display: none;
+    }
+    
+    body, h1, h2, p, a {
+        color: #000;
+        background: #fff;
+    }
+    
+    .centrering {
+        width: 100%;
+    }
+    
+    #underpeople > h2 { 
+        color: #000;
+    }
+
+    #underpeople div + h2 { 
+        color: #000;
+    }
+
+	#underpeople div ~ p { 
+        color: #000;
+    }
+    
+    a[title] { 
+        color: #000;
+    }
+
+    a[href$=\.pdf]::after {
+        color: #000;
+	}
+    
+    .hellofireworks {
+        font-family: sans-serif;
+        color: #000;
+    }
+}
+    
+/* 
+=================================================
+                    PROBLEMS, BUGS
+=================================================
+*/
+/* 
+
+
+
+*/
+
+/* 
+=================================================
+                    TODO LIST
+=================================================
+*/
+/* 
+
+* Mer innehåll.
+* Mer styling.
+* Kolla upp browser kompabilitet, ex -moz-border-radius, -moz-box-sizing, -moz-box-shadow mm
+* Main? något av de andra istället?
+* Använda engelska klass och id-namn.
+* Mer pillande med mediaqueries.
+
+    
+*/
+
+
+
+
+
+
+
+
+
+
+
+

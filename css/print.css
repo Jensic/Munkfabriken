@@ -1,0 +1,44 @@
+/*
+-------------------------------------------------
+            MEDIAQUERYPRINT
+-------------------------------------------------
+*/
+@media print and (monochrome) /* testa använd detta för svartvitutskrift  */ {
+	header, footer, .peoplepiccontainer, #bildmunkar, #smileymunk { /* Inl3 nivå3 */
+        display: none;
+    }
+    
+    body, h1, h2, p, a {
+        color: #000;
+        background: #fff;
+    }
+    
+    .centrering {
+        width: 100%;
+    }
+    
+    #underpeople > h2 { 
+        color: #000;
+    }
+
+    #underpeople div + h2 { 
+        color: #000;
+    }
+
+	#underpeople div ~ p { 
+        color: #000;
+    }
+    
+    a[title] { 
+        color: #000;
+    }
+
+    a[href$=\.pdf]::after {
+        color: #000;
+	}
+    
+    .hellofireworks {
+        font-family: sans-serif;
+        color: #000;
+    }
+}
